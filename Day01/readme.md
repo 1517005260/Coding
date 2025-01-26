@@ -11,4 +11,4 @@
 ## TODO
 
 - [x] [leetcode 35 搜索插入位置](https://leetcode.cn/problems/search-insert-position/description/)
-- [ ] [leetcode 34 在排序数组中查找元素的第一个和最后一个位置](https://leetcode.cn/problems/find-first-and-last-position-of-element-in-sorted-array/description/)
+- [x] [leetcode 34 在排序数组中查找元素的第一个和最后一个位置](https://leetcode.cn/problems/find-first-and-last-position-of-element-in-sorted-array/description/)
