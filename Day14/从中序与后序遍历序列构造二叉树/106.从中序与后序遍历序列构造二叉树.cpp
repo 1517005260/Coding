@@ -1,18 +1,10 @@
-# 从中序与后序遍历序列构造二叉树
+/*
+ * @lc app=leetcode.cn id=106 lang=cpp
+ *
+ * [106] 从中序与后序遍历序列构造二叉树
+ */
 
-例题：[leetcode 106 从中序与后序遍历序列构造二叉树](https://leetcode.cn/problems/construct-binary-tree-from-inorder-and-postorder-traversal/description/)
-
-![jpg](https://assets.leetcode.com/uploads/2021/02/19/tree.jpg)
-
-例如，对于上述图片，中序遍历为：`[9,3,15,20,7]`，后序遍历为`[9,15,7,20,3]`
-
-我们回忆一下 408 中的本考点的做法：
-
-- 首先，需要找到后续遍历中的最后一个节点，也就是递归层中的根节点
-- 其次，需要在中序遍历中找到它，那么中序遍历可以以它为切割点，左边是左子树，右边是右子树
-- 对应地可以在后序数组中进行切割，之后递归处理即可
-
-```cpp
+// @lc code=start
 /**
  * Definition for a binary tree node.
  * struct TreeNode {
@@ -66,8 +58,4 @@ public:
         return t;
     }
 };
-```
-
-## 相关题目
-
-[leetcode 105 从前序与中序遍历序列构造二叉树](https://leetcode.cn/problems/construct-binary-tree-from-preorder-and-inorder-traversal/description/)
+// @lc code=end
